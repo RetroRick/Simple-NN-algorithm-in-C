@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include "include/file_io.h"
 
+//TODO("Complete write read files in binary and test it")
+
 int open_file(FILE *ptr, char *instruction, char *path) {
     ptr = fopen(path, instruction);
     if (ptr == NULL) {

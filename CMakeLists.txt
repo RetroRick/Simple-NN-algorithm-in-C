@@ -3,4 +3,4 @@ project(simplenn C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(simplenn main.c lib/include/math_functions.h lib/math_functions.c lib/include/neuron.h lib/neuron.c)
+add_executable(simplenn main.c lib/include/math_functions.h lib/math_functions.c lib/include/neuron.h lib/neuron.c lib/file_io.c lib/include/file_io.h)

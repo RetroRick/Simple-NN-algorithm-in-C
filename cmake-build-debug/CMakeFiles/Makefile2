@@ -73,12 +73,12 @@ preinstall:
 CMakeFiles/simplenn.dir/all:
 	$(MAKE) -f CMakeFiles\simplenn.dir\build.make CMakeFiles/simplenn.dir/depend
 	$(MAKE) -f CMakeFiles\simplenn.dir\build.make CMakeFiles/simplenn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target simplenn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target simplenn"
 .PHONY : CMakeFiles/simplenn.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simplenn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/simplenn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/simplenn.dir/rule

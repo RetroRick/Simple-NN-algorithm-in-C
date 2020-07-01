@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "E:/Programming/Simple-NN-algorithm-in-C/lib/file_io.c" "E:/Programming/Simple-NN-algorithm-in-C/cmake-build-debug/CMakeFiles/simplenn.dir/lib/file_io.c.obj"
   "E:/Programming/Simple-NN-algorithm-in-C/lib/math_functions.c" "E:/Programming/Simple-NN-algorithm-in-C/cmake-build-debug/CMakeFiles/simplenn.dir/lib/math_functions.c.obj"
   "E:/Programming/Simple-NN-algorithm-in-C/lib/neuron.c" "E:/Programming/Simple-NN-algorithm-in-C/cmake-build-debug/CMakeFiles/simplenn.dir/lib/neuron.c.obj"
   "E:/Programming/Simple-NN-algorithm-in-C/main.c" "E:/Programming/Simple-NN-algorithm-in-C/cmake-build-debug/CMakeFiles/simplenn.dir/main.c.obj"

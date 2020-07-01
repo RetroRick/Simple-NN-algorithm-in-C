@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Programming/Simple-NN-algorithm-in-C/lib/file_io.c">
+			<Option target="simplenn"/>
+		</Unit>
+		<Unit filename="E:/Programming/Simple-NN-algorithm-in-C/lib/file_io.h">
+			<Option target="simplenn"/>
+		</Unit>
 		<Unit filename="E:/Programming/Simple-NN-algorithm-in-C/lib/include/math_functions.h">
 			<Option target="simplenn"/>
 		</Unit>

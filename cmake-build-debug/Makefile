@@ -122,6 +122,33 @@ simplenn/fast:
 	$(MAKE) -f CMakeFiles\simplenn.dir\build.make CMakeFiles/simplenn.dir/build
 .PHONY : simplenn/fast
 
+lib/file_io.obj: lib/file_io.c.obj
+
+.PHONY : lib/file_io.obj
+
+# target to build an object file
+lib/file_io.c.obj:
+	$(MAKE) -f CMakeFiles\simplenn.dir\build.make CMakeFiles/simplenn.dir/lib/file_io.c.obj
+.PHONY : lib/file_io.c.obj
+
+lib/file_io.i: lib/file_io.c.i
+
+.PHONY : lib/file_io.i
+
+# target to preprocess a source file
+lib/file_io.c.i:
+	$(MAKE) -f CMakeFiles\simplenn.dir\build.make CMakeFiles/simplenn.dir/lib/file_io.c.i
+.PHONY : lib/file_io.c.i
+
+lib/file_io.s: lib/file_io.c.s
+
+.PHONY : lib/file_io.s
+
+# target to generate assembly for a file
+lib/file_io.c.s:
+	$(MAKE) -f CMakeFiles\simplenn.dir\build.make CMakeFiles/simplenn.dir/lib/file_io.c.s
+.PHONY : lib/file_io.c.s
+
 lib/math_functions.obj: lib/math_functions.c.obj
 
 .PHONY : lib/math_functions.obj
@@ -212,6 +239,9 @@ help:
 	@echo ... simplenn
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... lib/file_io.obj
+	@echo ... lib/file_io.i
+	@echo ... lib/file_io.s
 	@echo ... lib/math_functions.obj
 	@echo ... lib/math_functions.i
 	@echo ... lib/math_functions.s

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/simplenn.dir/lib/file_io.c.obj"
   "CMakeFiles/simplenn.dir/lib/math_functions.c.obj"
   "CMakeFiles/simplenn.dir/lib/neuron.c.obj"
   "CMakeFiles/simplenn.dir/main.c.obj"

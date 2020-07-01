@@ -12,5 +12,6 @@ void activation_function(int size, double z[size], double out[size]);
 void cost_function(int size, double prediction_value[size], double real_value[size], double cost_values[size]);
 double sigmoid(double val);
 double dsigmoid(double val);
+;
 
 #endif //SIMPLENN_MATH_FUNCTIONS_H

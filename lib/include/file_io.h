@@ -8,9 +8,9 @@
 char *file_path;
 FILE *file;
 
-int open_file(FILE *ptr, char *instruction, char* path);
+void open_file(FILE *ptr, char* path, char *instruction);
 void print_file(FILE *ptr);
-void write_file(FILE *ptr);
-void extract_content_d(FILE *ptr, double w[]);
+void write_file(FILE *ptr, double* data_stream);
+void extract_content_d(FILE *ptr, double* w);
 
 #endif //SIMPLENN_FILE_IO_H

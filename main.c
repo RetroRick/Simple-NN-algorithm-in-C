@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <assert.h>
 #include "lib/include/math_functions.h"
 #include "lib/include/neuron.h"
-
+#include "lib/include/file_io.h"
 /*
 double x1[30] = {5.1, 6.5, 6.3, 6.4, 4.9, 4.6, 4.7, 6.3, 5.2, 6.9, 5.4, 7.3, 4.4, 5.8, 7.0,
                  7.1, 5.7, 5.0, 7.2, 4.9, 4.9, 7.6, 4.9, 5.5, 6.5, 6.3, 5.0, 6.6, 6.7, 4.6};
@@ -38,7 +39,6 @@ int main() {
     cost_function(30, outputs, y, cost);
     printf("Error:\n");
     print_array(30, cost);*/
-
     return 0;
 }
 

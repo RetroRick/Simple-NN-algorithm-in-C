@@ -3,31 +3,24 @@
 //
 
 #include <stdio.h>
+#include <assert.h>
 #include "include/file_io.h"
 
 //TODO("Complete write read files in binary and test it")
 
-int open_file(FILE *ptr, char *instruction, char *path) {
+void open_file(FILE *ptr, char* path, char *instruction) {
     ptr = fopen(path, instruction);
-    if (ptr == NULL) {
-        printf("Error no such file or directory\n");
-        return 1;
-    } else {
-        {
-            printf("File exists in %s\n", path);
-            return 0;
-        }
-    }
+    assert(ptr != NULL);
 }
 
 void print_file(FILE *ptr) {
 
 }
 
-void write_file(FILE *ptr) {
-
+void write_file(FILE *ptr, double* data_stream){
+    fwrite(data_stream, sizeof(double*), sizeof(data_stream), ptr);
 }
 
-void extract_content_d(FILE *ptr, double w[]) {
-
+void extract_content_d(FILE *ptr, double* w) {
+    fread(w, sizeof(double*), sizeof(w), ptr);
 }

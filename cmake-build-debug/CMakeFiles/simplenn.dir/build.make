@@ -42,10 +42,10 @@ RM = "E:\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Programming\simplenn
+CMAKE_SOURCE_DIR = E:\Programming\Simple-NN-algorithm-in-C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Programming\simplenn\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/simplenn.dir/depend.make
@@ -58,42 +58,42 @@ include CMakeFiles/simplenn.dir/flags.make
 
 CMakeFiles/simplenn.dir/main.c.obj: CMakeFiles/simplenn.dir/flags.make
 CMakeFiles/simplenn.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Programming\simplenn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simplenn.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\simplenn.dir\main.c.obj   -c E:\Programming\simplenn\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simplenn.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\simplenn.dir\main.c.obj   -c E:\Programming\Simple-NN-algorithm-in-C\main.c
 
 CMakeFiles/simplenn.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simplenn.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Programming\simplenn\main.c > CMakeFiles\simplenn.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Programming\Simple-NN-algorithm-in-C\main.c > CMakeFiles\simplenn.dir\main.c.i
 
 CMakeFiles/simplenn.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simplenn.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Programming\simplenn\main.c -o CMakeFiles\simplenn.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Programming\Simple-NN-algorithm-in-C\main.c -o CMakeFiles\simplenn.dir\main.c.s
 
 CMakeFiles/simplenn.dir/lib/math_functions.c.obj: CMakeFiles/simplenn.dir/flags.make
 CMakeFiles/simplenn.dir/lib/math_functions.c.obj: ../lib/math_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Programming\simplenn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/simplenn.dir/lib/math_functions.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\simplenn.dir\lib\math_functions.c.obj   -c E:\Programming\simplenn\lib\math_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/simplenn.dir/lib/math_functions.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\simplenn.dir\lib\math_functions.c.obj   -c E:\Programming\Simple-NN-algorithm-in-C\lib\math_functions.c
 
 CMakeFiles/simplenn.dir/lib/math_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simplenn.dir/lib/math_functions.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Programming\simplenn\lib\math_functions.c > CMakeFiles\simplenn.dir\lib\math_functions.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Programming\Simple-NN-algorithm-in-C\lib\math_functions.c > CMakeFiles\simplenn.dir\lib\math_functions.c.i
 
 CMakeFiles/simplenn.dir/lib/math_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simplenn.dir/lib/math_functions.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Programming\simplenn\lib\math_functions.c -o CMakeFiles\simplenn.dir\lib\math_functions.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Programming\Simple-NN-algorithm-in-C\lib\math_functions.c -o CMakeFiles\simplenn.dir\lib\math_functions.c.s
 
 CMakeFiles/simplenn.dir/lib/neuron.c.obj: CMakeFiles/simplenn.dir/flags.make
 CMakeFiles/simplenn.dir/lib/neuron.c.obj: ../lib/neuron.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Programming\simplenn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/simplenn.dir/lib/neuron.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\simplenn.dir\lib\neuron.c.obj   -c E:\Programming\simplenn\lib\neuron.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/simplenn.dir/lib/neuron.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\simplenn.dir\lib\neuron.c.obj   -c E:\Programming\Simple-NN-algorithm-in-C\lib\neuron.c
 
 CMakeFiles/simplenn.dir/lib/neuron.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simplenn.dir/lib/neuron.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Programming\simplenn\lib\neuron.c > CMakeFiles\simplenn.dir\lib\neuron.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Programming\Simple-NN-algorithm-in-C\lib\neuron.c > CMakeFiles\simplenn.dir\lib\neuron.c.i
 
 CMakeFiles/simplenn.dir/lib/neuron.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simplenn.dir/lib/neuron.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Programming\simplenn\lib\neuron.c -o CMakeFiles\simplenn.dir\lib\neuron.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Programming\Simple-NN-algorithm-in-C\lib\neuron.c -o CMakeFiles\simplenn.dir\lib\neuron.c.s
 
 # Object files for target simplenn
 simplenn_OBJECTS = \
@@ -111,7 +111,7 @@ simplenn.exe: CMakeFiles/simplenn.dir/build.make
 simplenn.exe: CMakeFiles/simplenn.dir/linklibs.rsp
 simplenn.exe: CMakeFiles/simplenn.dir/objects1.rsp
 simplenn.exe: CMakeFiles/simplenn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Programming\simplenn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable simplenn.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable simplenn.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\simplenn.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/simplenn.dir/clean:
 .PHONY : CMakeFiles/simplenn.dir/clean
 
 CMakeFiles/simplenn.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Programming\simplenn E:\Programming\simplenn E:\Programming\simplenn\cmake-build-debug E:\Programming\simplenn\cmake-build-debug E:\Programming\simplenn\cmake-build-debug\CMakeFiles\simplenn.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Programming\Simple-NN-algorithm-in-C E:\Programming\Simple-NN-algorithm-in-C E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug E:\Programming\Simple-NN-algorithm-in-C\cmake-build-debug\CMakeFiles\simplenn.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/simplenn.dir/depend
 

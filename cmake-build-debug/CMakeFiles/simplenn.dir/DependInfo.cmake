@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/Programming/simplenn/lib/math_functions.c" "E:/Programming/simplenn/cmake-build-debug/CMakeFiles/simplenn.dir/lib/math_functions.c.obj"
-  "E:/Programming/simplenn/lib/neuron.c" "E:/Programming/simplenn/cmake-build-debug/CMakeFiles/simplenn.dir/lib/neuron.c.obj"
-  "E:/Programming/simplenn/main.c" "E:/Programming/simplenn/cmake-build-debug/CMakeFiles/simplenn.dir/main.c.obj"
+  "E:/Programming/Simple-NN-algorithm-in-C/lib/math_functions.c" "E:/Programming/Simple-NN-algorithm-in-C/cmake-build-debug/CMakeFiles/simplenn.dir/lib/math_functions.c.obj"
+  "E:/Programming/Simple-NN-algorithm-in-C/lib/neuron.c" "E:/Programming/Simple-NN-algorithm-in-C/cmake-build-debug/CMakeFiles/simplenn.dir/lib/neuron.c.obj"
+  "E:/Programming/Simple-NN-algorithm-in-C/main.c" "E:/Programming/Simple-NN-algorithm-in-C/cmake-build-debug/CMakeFiles/simplenn.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

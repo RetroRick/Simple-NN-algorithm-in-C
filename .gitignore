@@ -1,2 +1,2 @@
 #ignore the following files/paths
-/cmake-build-debug
+/cmake-build-debug/*

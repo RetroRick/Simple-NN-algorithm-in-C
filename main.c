@@ -28,7 +28,7 @@ double y[30] = {0, 0.3, 1, 0.3, 1, 0, 0, 1, 0.3, 0.3, 0, 1, 0, 1, 0.3, 1, 0.3,
 double cost[30];
 */
 
-
+//coment
 int main() {
 /*
     weight_generator(4, weights);
